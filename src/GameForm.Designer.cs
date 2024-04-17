@@ -75,7 +75,7 @@ namespace Snake
             this.btnPlayAgain.Name = "btnPlayAgain";
             this.btnPlayAgain.Size = new System.Drawing.Size(161, 107);
             this.btnPlayAgain.TabIndex = 1;
-            this.btnPlayAgain.Text = "Play Again";
+            this.btnPlayAgain.Text = "Joaca iar";
             this.btnPlayAgain.UseVisualStyleBackColor = false;
             this.btnPlayAgain.Click += new System.EventHandler(this.btnPlayAgain_Click);
             // 
@@ -88,7 +88,7 @@ namespace Snake
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(161, 107);
             this.btnQuit.TabIndex = 2;
-            this.btnQuit.Text = "Quit";
+            this.btnQuit.Text = "Renunta";
             this.btnQuit.UseVisualStyleBackColor = false;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
@@ -99,9 +99,9 @@ namespace Snake
             this.lblScore.ForeColor = System.Drawing.Color.PaleGoldenrod;
             this.lblScore.Location = new System.Drawing.Point(194, 98);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(80, 24);
+            this.lblScore.Size = new System.Drawing.Size(69, 24);
             this.lblScore.TabIndex = 5;
-            this.lblScore.Text = "Score: 0";
+            this.lblScore.Text = "Scor: 0";
             // 
             // lblHighscore
             // 
@@ -110,9 +110,9 @@ namespace Snake
             this.lblHighscore.ForeColor = System.Drawing.Color.PaleGoldenrod;
             this.lblHighscore.Location = new System.Drawing.Point(662, 98);
             this.lblHighscore.Name = "lblHighscore";
-            this.lblHighscore.Size = new System.Drawing.Size(117, 24);
+            this.lblHighscore.Size = new System.Drawing.Size(130, 24);
             this.lblHighscore.TabIndex = 6;
-            this.lblHighscore.Text = "Highscore: 0";
+            this.lblHighscore.Text = "Scor maxim: 0";
             // 
             // gameTimer
             // 
@@ -127,7 +127,7 @@ namespace Snake
             this.btnEDif.Name = "btnEDif";
             this.btnEDif.Size = new System.Drawing.Size(161, 66);
             this.btnEDif.TabIndex = 7;
-            this.btnEDif.Text = "Easy";
+            this.btnEDif.Text = "Usor";
             this.btnEDif.UseVisualStyleBackColor = false;
             this.btnEDif.Click += new System.EventHandler(this.btnEDif_Click);
             // 
@@ -140,7 +140,7 @@ namespace Snake
             this.btnMDif.Name = "btnMDif";
             this.btnMDif.Size = new System.Drawing.Size(159, 66);
             this.btnMDif.TabIndex = 8;
-            this.btnMDif.Text = "Medium";
+            this.btnMDif.Text = "Mediu";
             this.btnMDif.UseVisualStyleBackColor = false;
             this.btnMDif.Click += new System.EventHandler(this.btnMDif_Click);
             // 
@@ -153,7 +153,7 @@ namespace Snake
             this.btnHDif.Name = "btnHDif";
             this.btnHDif.Size = new System.Drawing.Size(157, 66);
             this.btnHDif.TabIndex = 9;
-            this.btnHDif.Text = "Hard";
+            this.btnHDif.Text = "Greu";
             this.btnHDif.UseVisualStyleBackColor = false;
             this.btnHDif.Click += new System.EventHandler(this.btnHDif_Click);
             // 
@@ -164,9 +164,9 @@ namespace Snake
             this.lblDifChoice.ForeColor = System.Drawing.Color.PaleGoldenrod;
             this.lblDifChoice.Location = new System.Drawing.Point(249, 201);
             this.lblDifChoice.Name = "lblDifChoice";
-            this.lblDifChoice.Size = new System.Drawing.Size(503, 73);
+            this.lblDifChoice.Size = new System.Drawing.Size(522, 73);
             this.lblDifChoice.TabIndex = 10;
-            this.lblDifChoice.Text = "Choose difficulty";
+            this.lblDifChoice.Text = "Alege dificultatea";
             // 
             // btnStart
             // 
@@ -177,7 +177,7 @@ namespace Snake
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(221, 64);
             this.btnStart.TabIndex = 11;
-            this.btnStart.Text = "Start Game ";
+            this.btnStart.Text = "Incepe jocul";
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
@@ -199,9 +199,9 @@ namespace Snake
             this.lblDif.ForeColor = System.Drawing.Color.PaleGoldenrod;
             this.lblDif.Location = new System.Drawing.Point(421, 98);
             this.lblDif.Name = "lblDif";
-            this.lblDif.Size = new System.Drawing.Size(59, 24);
+            this.lblDif.Size = new System.Drawing.Size(48, 24);
             this.lblDif.TabIndex = 13;
-            this.lblDif.Text = "Mode";
+            this.lblDif.Text = "Mod";
             // 
             // btnDecreaseDif
             // 
@@ -212,7 +212,7 @@ namespace Snake
             this.btnDecreaseDif.Name = "btnDecreaseDif";
             this.btnDecreaseDif.Size = new System.Drawing.Size(161, 107);
             this.btnDecreaseDif.TabIndex = 16;
-            this.btnDecreaseDif.Text = "Decrease Difficulty";
+            this.btnDecreaseDif.Text = "Scade dificultatea";
             this.btnDecreaseDif.UseVisualStyleBackColor = false;
             this.btnDecreaseDif.Click += new System.EventHandler(this.btnDecreaseDif_Click);
             // 
@@ -225,7 +225,7 @@ namespace Snake
             this.btnIncreaseDif.Name = "btnIncreaseDif";
             this.btnIncreaseDif.Size = new System.Drawing.Size(161, 107);
             this.btnIncreaseDif.TabIndex = 17;
-            this.btnIncreaseDif.Text = "Increase Difficulty";
+            this.btnIncreaseDif.Text = "Creste dificultatea";
             this.btnIncreaseDif.UseVisualStyleBackColor = false;
             this.btnIncreaseDif.Click += new System.EventHandler(this.btnIncreaseDif_Click);
             // 
@@ -236,9 +236,9 @@ namespace Snake
             this.lblInstructions.ForeColor = System.Drawing.Color.PaleGoldenrod;
             this.lblInstructions.Location = new System.Drawing.Point(328, 25);
             this.lblInstructions.Name = "lblInstructions";
-            this.lblInstructions.Size = new System.Drawing.Size(361, 73);
+            this.lblInstructions.Size = new System.Drawing.Size(343, 73);
             this.lblInstructions.TabIndex = 18;
-            this.lblInstructions.Text = "Instructions";
+            this.lblInstructions.Text = "Instructiuni";
             // 
             // tbInstr
             // 
@@ -246,7 +246,7 @@ namespace Snake
             this.tbInstr.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbInstr.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbInstr.ForeColor = System.Drawing.Color.PaleGoldenrod;
-            this.tbInstr.Location = new System.Drawing.Point(112, 277);
+            this.tbInstr.Location = new System.Drawing.Point(94, 201);
             this.tbInstr.Multiline = true;
             this.tbInstr.Name = "tbInstr";
             this.tbInstr.ReadOnly = true;
@@ -262,7 +262,7 @@ namespace Snake
             this.btnReady.Name = "btnReady";
             this.btnReady.Size = new System.Drawing.Size(231, 66);
             this.btnReady.TabIndex = 20;
-            this.btnReady.Text = "I\'m ready!";
+            this.btnReady.Text = "Sunt pregatit!";
             this.btnReady.UseVisualStyleBackColor = false;
             this.btnReady.Click += new System.EventHandler(this.btnReady_Click);
             // 
@@ -271,11 +271,11 @@ namespace Snake
             this.lblWinner.AutoSize = true;
             this.lblWinner.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWinner.ForeColor = System.Drawing.Color.PaleGoldenrod;
-            this.lblWinner.Location = new System.Drawing.Point(71, 126);
+            this.lblWinner.Location = new System.Drawing.Point(267, 126);
             this.lblWinner.Name = "lblWinner";
-            this.lblWinner.Size = new System.Drawing.Size(864, 108);
+            this.lblWinner.Size = new System.Drawing.Size(401, 108);
             this.lblWinner.TabIndex = 21;
-            this.lblWinner.Text = "You are the GOAT!";
+            this.lblWinner.Text = "Felicitari";
             // 
             // GameForm
             // 
